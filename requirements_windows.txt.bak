@@ -35,7 +35,7 @@ hbutils==0.10.1
 hfutils==0.6.0
 httpcore==1.0.7
 httpx==0.28.0
-huggingface-hub==0.24.4
+huggingface-hub==0.24.0
 humanfriendly==10.0
 idna==3.10
 importlib_metadata==8.5.0
