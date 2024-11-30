@@ -3,7 +3,6 @@ Modified from https://github.com/lllyasviel/Paints-UNDO/blob/main/gradio_app.py
 '''
 import functools
 
-import spaces
 import gradio as gr
 import numpy as np
 import cv2
@@ -199,7 +198,7 @@ def numpy2pytorch(imgs):
     return h
 
 
-@spaces.GPU
+
 def interrogator_process(x):
     img = Image.fromarray(x)
     rating, features, chars = get_wd14_tags(
@@ -216,7 +215,7 @@ def interrogator_process(x):
     return result, f"{len(tokenizer.tokenize(result))}"
 
 
-@spaces.GPU
+
 @torch.inference_mode()
 def process(
     input_fg,
