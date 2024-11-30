@@ -5,7 +5,7 @@
 
 ## Installation video
 
- - Youtube
+ - https://youtu.be/q9pXi8JFZKw
 
 ## Installation steps
 
